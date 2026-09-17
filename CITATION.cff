@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: Railway Wagon Stitching Benchmark
+message: >-
+  If you use this evaluation framework or the benchmark dataset,
+  please cite the associated paper.
+type: software
+version: 1.0.0
+date-released: 2026-09-17
+license: MIT
+repository-code: https://github.com/AlejandroDiazD/railway-stitching-benchmark
+url: https://github.com/AlejandroDiazD/railway-stitching-benchmark
+abstract: >-
+  Three-tier evaluation framework and benchmark protocol for sequential
+  image stitching of railway wagons seen by a fixed trackside camera.
+  Scores a stitching system from its reported frame offsets alone,
+  combining Degenerate Rate, Displacement Accuracy and Sequence Stability
+  into a weighted geometric mean. The companion dataset of 30 wagon
+  sequences with 262 manually annotated frame pairs is available on
+  request.
+keywords:
+  - image stitching
+  - railway inspection
+  - evaluation framework
+  - benchmark dataset
+  - industrial computer vision
+authors:
+  - family-names: Diaz-Diaz
+    given-names: Alejandro
+    affiliation: Indra Company, Transportation Department
+    email: adiazd@indra.es
+    orcid: https://orcid.org/0000-0002-7232-3197
+  - family-names: Parrilla
+    given-names: Francisco
+    affiliation: Indra Company, Transportation Department
+    orcid: https://orcid.org/0000-0002-2538-9580
+  - family-names: Bergasa
+    given-names: Luis M.
+    affiliation: Universidad de Alcalá (UAH), Departamento de Electrónica
+    orcid: https://orcid.org/0000-0002-0087-3077
+preferred-citation:
+  type: article
+  title: >-
+    Robust Image Stitching for Railway Wagon Inspection in
+    Uncontrolled Outdoor Environments
+  authors:
+    - family-names: Diaz-Diaz
+      given-names: Alejandro
+    - family-names: Parrilla
+      given-names: Francisco
+    - family-names: Bergasa
+      given-names: Luis M.
+  journal: Sensors
+  publisher:
+    name: MDPI
+  year: 2026
+  # TODO on publication: add volume, issue, article number (start/end pages)
+  # and doi, and mirror them in the BibTeX block of README.md.

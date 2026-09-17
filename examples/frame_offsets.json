@@ -1,0 +1,39 @@
+{
+  "system": "Reference pipeline (dense matcher + filter cascade + recovery)",
+  "wagon": "wagon_10",
+  "train": "train_01",
+  "frames": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg",
+    "frame_008.jpg",
+    "frame_009.jpg",
+    "frame_010.jpg",
+    "frame_011.jpg",
+    "frame_012.jpg",
+    "frame_013.jpg",
+    "frame_014.jpg"
+  ],
+  "offsets_px": [
+    0,
+    835,
+    1669,
+    2507,
+    3341,
+    4182,
+    5016,
+    5854,
+    6687,
+    7520,
+    8360,
+    9198,
+    10030,
+    10874,
+    11719
+  ]
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+
+# Local evaluation outputs
+*_report.json
+eval_summary.csv
+eval_summary.json
+
+# Anonymised dataset build: imagery is served on request, never via git.
+# Includes mapping.csv, which is private and must not leave this machine.
+dataset_build/
